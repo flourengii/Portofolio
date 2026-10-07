@@ -16,9 +16,12 @@
 
     <body>
         <canvas id="sky"></canvas>
+        <!-- [C] ID SELECTOR: id="header" dipakai oleh #header di style.css -->
         <header id="header">
             <div class="wrap">
                 <a class="logo" href="index.html">FG</a>
+                <!-- [D] DESCENDANT SELECTOR: struktur nav > ul > li > a distyle oleh "nav ul li a" di style.css -->
+                <!-- [F] PSEUDO-CLASS: hover effect menu ini dibuat oleh "nav ul li a:hover" -->
                 <nav>
                     <ul>
                         <li><a href="index.html">Home</a></li>
@@ -40,6 +43,7 @@
                 <div class="wrap">
                     <h2>Project</h2>
                     <p>Some of the projects and experiments I've created.</p>
+                    <!-- [B] CLASS SELECTOR: class="win card" (kartu project) dipakai oleh .win dan .card di style.css -->
                     <div class="cards"
                         style="grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr))">
                         <article class="win card">
@@ -54,7 +58,7 @@
                                     focus timer, task manager, and quick links.</p><span
                                     class="tag">html</span><span class="tag">css</span><span
                                     class="tag">js</span><br><a class="btn"
-                                    href="https://lifedashboardd.netlify.app/" target="_blank"
+                                    href="https://lifedashboardd.vercel.app/" target="_blank"
                                     rel="noopener">View project &#8599;</a>
                             </div>
                         </article>
@@ -70,7 +74,7 @@
                                     limits, and visualizing spending categories with charts.</p><span
                                     class="tag">html</span><span class="tag">css</span><span
                                     class="tag">js</span><br><a class="btn"
-                                    href="https://pocketledgerr.netlify.app/" target="_blank"
+                                    href="https://pocketledgerr-one.vercel.app/" target="_blank"
                                     rel="noopener">View project &#8599;</a>
                             </div>
                         </article>
@@ -110,6 +114,7 @@
                 </div>
             </section>
         </main>
+        <!-- [C] ID SELECTOR: id="footer" dipakai oleh #footer di style.css -->
         <footer id="footer">
             <div class="wrap foot">
                 <div><b class="f-logo">FG.</b>
